@@ -1,4 +1,4 @@
-\\commented out code is either an explanation of each line or first iterations of ideas 
+//commented out code is either an explanation of each line or first iterations of ideas 
 
 Table table;
 int[] totalRPEarned = new int[100];
@@ -9,7 +9,9 @@ float TotalRP = 0;
 void setup() {
   size(400,400);
   table = loadTable("Apex_Game_Data_Full - Sheet1.csv", "header");
-  
+
+//This was my first idea for the programn where to achieve a peak in the middle of the page that resembled a mountain through looping through the first 50 elements in ascending order and then the next 50 in descending order
+//this later got changed and instead decided to mirror the information found 
 //  int index = 0;
 //loops through first 50 of rp earned
 //for(int i = 0; i < 50; i++) {
