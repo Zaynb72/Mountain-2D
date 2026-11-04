@@ -1,3 +1,5 @@
+\\commented out code is either an explanation of each line or first iterations of ideas 
+
 Table table;
 int[] totalRPEarned = new int[100];
 float[] mappedRP = new float[100];
